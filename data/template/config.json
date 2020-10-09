@@ -1,0 +1,82 @@
+{
+  "url": "https://calpa.me",
+  "meta": {
+    "favicon": "https://visitmystudio.com/img/touch-icon-120x120.png",
+    "keyword": "Visit My Studio, blog, art",
+    "description": "Visit My Studio Blogs",
+    "theme_color": "#384f7c",
+    "google_site_verification": "riZBcestky7i9xY__A-5J-2EE65T75X1u-zgbss37Io"
+  },
+  "name": "calpa",
+  "about": "/2018/05/01/about-calpa-liu/",
+  "email": "calpaliu@gmail.com",
+  "stats": {
+    "image": "https://i.imgur.com/VjBWiSt.png",
+    "title": "過去三十日數據",
+    "description": "過去三十日數據"
+  },
+  "title": "Visit My Studio Blogs",
+  "gitalk": {
+    "repo": "calpa.github.io",
+    "admin": ["calpa"],
+    "owner": "calpa",
+    "clientID": "18255f031b5e11edd98a",
+    "clientSecret": "2ff6331da9e53f9a91bcc991d38d550c85026714",
+    "pagerDirection": "first",
+    "distractionFreeMode": true
+  },
+  "License": "by",
+  "friends": [
+    {
+      "href": "https://calpa.me",
+      "title": "Calpa's Blog"
+    }
+  ],
+  "iconUrl": "https://i.imgur.com/kjt2x52.jpg",
+  "wordings": ["GatsbyJS, ReactJS", "全週期開發者"],
+  "gaTrackId": "UA-84737574-3",
+  "navbarList": [
+    {
+      "href": "/tags/",
+      "title": "Tags"
+    },
+    {
+      "href": "/authors",
+      "title": "Authors"
+    }
+  ],
+  "redirectors": [
+    {
+      "toPath": "/2018/05/01/about-calpa-liu/",
+      "fromPath": "/about/"
+    }
+  ],
+  "gaOptimizeId": "GTM-WHP7SC5",
+  "carouselItems": [
+    {
+      "src": "https://i.imgur.com/gw91CuI.jpg",
+      "target": "/stats/"
+    }
+  ],
+  "zhihuUsername": "piao-xue-wu-ying",
+  "githubUsername": "calpa",
+  "maxPostsInPage": 10,
+  "facebook": "calpablog",
+  "profile" : 
+    {
+      "Test" :{
+        "about": "This is a test blog profile to test how profiles work",
+        "picture": "https://i.imgur.com/d8Jxo5O.jpg",
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/visitmystudio/",
+        "description": "This is a test blog, tthat has been created to test how blogs will look"
+      },
+      "Nini_Huang": {
+        "about": "This is a test blog profile to test how profiles work",
+        "picture": "https://i.imgur.com/d8Jxo5O.jpg",
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/visitmystudio/",
+        "description": "This is a test blog, tthat has been created to test how blogs will look"
+      }
+    }
+}
