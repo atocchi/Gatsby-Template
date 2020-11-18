@@ -44,7 +44,7 @@ const TagPage = ({ data }) => {
       </div>
       <SEO
         title="Visit My Studio Tags"
-        url="/tags/"
+        url="/blog/tags/"
         siteTitleAlt="VMS Blog"
         isPost={false}
         description="Tags Page"

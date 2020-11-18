@@ -41,12 +41,12 @@ class BlogPost extends Component {
     const { frontmatter, id: graphqlId } = this.data.content.edges[0].node;
     const { title, id } = frontmatter;
 
-    const GitTalkInstance = new Gitalk({
-      ...gitalk,
-      title,
-      id: id || graphqlId,
-    });
-    GitTalkInstance.render('gitalk-container');
+    // const GitTalkInstance = new Gitalk({
+    //   ...gitalk,
+    //   title,
+    //   id: id || graphqlId,
+    // });
+    // GitTalkInstance.render('gitalk-container');
   }
 
   render() {
@@ -78,22 +78,22 @@ class BlogPost extends Component {
           <div className="m-message" style={bgWhite}>
             Please visit our main page @
             <ExternalLink
-              href="https://visitmystudio.com"
+              href="https://www.visitmystudio.co.uk"
               title="Visit My Studio"
             />
             &nbsp;
             or continue blogging @
             <ExternalLink
-              href="https://github.com/calpa/"
+              href="https://www.visitmystudio.co.uk/blog"
               title="Blog"
             />
             。
           </div>
 
-          <div id="gitalk-container" />
+          {/* <div id="gitalk-container" /> */}
         </div>
 
-        <ShareBox url={slug} />
+        {/* <ShareBox url={slug} /> */}
 
         <SEO
           title={title}
